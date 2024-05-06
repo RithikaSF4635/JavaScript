@@ -1,0 +1,42 @@
+header{
+    border-color: black;
+    border-style: groove;
+}
+a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+form{
+    border-color: black;
+    border-style: groove;
+}
+footer{
+    border-color: black;
+    border-style: groove;
+    
+}
+h3{
+    margin-left: 20px;
+}
+.input-group{
+    padding: 10px;
+    margin-left: 10px;
+}
+.input-group .error{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.input-group.success input{
+    border-color: green;
+}
+.input-group.error input{
+    border-color: red;
+}
+input{
+    margin-left: 10px;
+}
+button{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}

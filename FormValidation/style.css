@@ -1,0 +1,56 @@
+body{
+    background-color: azure;
+    margin: 0;
+    font-family: sans-serif;  
+}
+
+#form{
+    width:400px;
+    margin: 20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h1{
+    text-align: centre;
+    color: blueviolet;
+}
+#form button{
+    background-color: blueviolet;
+    color: white;
+    width: 100%;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px  0px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-group input:focus{
+    outline: 0;
+}
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid skyblue;
+}
+.input-group .error{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.input-group.success input{
+    border-color: green;
+}
+.input-group.error input{
+    border-color: red;
+}
